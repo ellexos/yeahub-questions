@@ -1,0 +1,27 @@
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navLogo{
+    margin-right: 30px;
+}
+
+.navLink{
+    padding: 6px 10px;
+    margin-left: 20px;
+    color: var(--main-text)
+}
+
+.navLink:hover,
+.navLink:active,
+.navLink:focus
+{
+    padding: 6px 10px;
+    margin-left: 20px;
+
+    border-radius: 12px;
+    background-color: var(--label);
+    color: var(--link);
+
+}

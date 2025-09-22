@@ -1,0 +1,35 @@
+.root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.allNumbers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+}
+
+.arrowBtn{
+    background-color: var(--white-900);
+}
+
+.arrowNumber{
+    background-color: var(--white-900);
+    padding: 8px;
+}
+
+.arrowBtn:disabled,
+.arrowNumber:disabled
+{
+    cursor: default;
+    /*opacity: 70%;*/
+}
+
+.active{
+    color: var(--white-900);
+    background-color: var(--primary-600);
+    border-radius: 8px;
+}

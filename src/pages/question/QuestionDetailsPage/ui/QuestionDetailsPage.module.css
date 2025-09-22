@@ -1,0 +1,18 @@
+.navigateBtn{
+    background: none;
+    color: var(--primary-800);
+}
+
+.root{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.main{
+    flex: 2;
+}
+
+.sidebar{
+    flex: 1
+}

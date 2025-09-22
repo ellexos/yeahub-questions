@@ -1,0 +1,11 @@
+.login{
+    margin-right: 20px;
+    color: var(--link);
+}
+
+.register{
+    background-color: var(--link);
+    color: white;
+    border-radius: 12px;
+    padding: 12px 28px;
+}

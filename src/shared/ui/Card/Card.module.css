@@ -1,0 +1,31 @@
+.root{
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 16px;
+    background-color: var(--white-900);
+    border-radius: 16px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardImage{
+    border-radius: 8px;
+}
+
+.cardTitle{
+    font-size: 20px;
+}
+
+.mainTitle{
+    font-size: 26px;
+}
+
+.cardDescription{
+    font-size: 16px;
+    color: var(--black-800)
+}

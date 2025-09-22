@@ -1,0 +1,42 @@
+.sectionRoot{
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.sectionItems{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.default{
+    background-color: var(--white-900);
+    color: var(--black-900);
+    border: 1px solid var(--black-200);
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.default:hover{
+    background-color: var(--primary-700);
+    color: var(--white-900);
+}
+
+.active{
+    border: 1px solid var(--primary-700);
+}
+
+
+.btn{
+    background: none;
+    color: var(--primary-800);
+}

@@ -1,0 +1,25 @@
+.root{
+    font-weight: 400;
+    background-color: var(--white-900);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+}
+
+.sectionRoot{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.sectionItems{
+    display: flex;
+    gap: 10px;
+}
+
+
+.keywordItem{
+    color: var(--primary-700);
+}

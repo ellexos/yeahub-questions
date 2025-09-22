@@ -1,0 +1,5 @@
+.navLinkArrow{
+    color: var(--primary-700);
+    display: flex;
+    gap: 8px
+}

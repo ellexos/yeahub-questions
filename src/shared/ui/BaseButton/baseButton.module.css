@@ -1,0 +1,32 @@
+.default{
+    background-color: var(--white-900);
+    color: var(--black-900);
+    border: 1px solid var(--black-200);
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.primary{
+    background-color: var(--primary-700);
+    color: var(--white-900);
+}
+
+/*.icon{*/
+/*    width: 20px;*/
+/*   height: 20px;*/
+/*    margin-right: 6px;*/
+/*}*/
+
+.default:hover{
+    background-color: var(--primary-700);
+    color: var(--white-900);
+    /*border: 1px solid var(--black-200);*/
+    /*font-size: 16px;*/
+    /*border-radius: 12px;*/
+    /*padding: 12px;*/
+}
+
+.active{
+    border: 1px solid var(--primary-700);
+}

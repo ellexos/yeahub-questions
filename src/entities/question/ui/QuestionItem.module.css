@@ -1,0 +1,8 @@
+.questionMeta{
+    display: flex;
+    gap: 24px;
+}
+
+.questionActions{
+    align-self:flex-end;
+}

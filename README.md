@@ -5,7 +5,7 @@
 vite
 ```
 
-### [Демо - Vercel](https://<your-app>.vercel.app) 
+### [Демо - Vercel](https://yeahub-questions-ten.vercel.app/) 
 
 🧰 Стэк
 - TypeScript
